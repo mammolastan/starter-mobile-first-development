@@ -1,5 +1,7 @@
 main {
   margin-top: 60px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 main h1 {
@@ -26,4 +28,26 @@ main h3 {
 main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
+}
+
+.group {
+  display: flex;
+  padding: 1% 3%;
+}
+
+.group img {
+  width: 100%;
+}
+
+.item {
+  flex: 1;
+  margin: 1%;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.bg-mocha {
+  background-color: #6a4d1b;
 }
